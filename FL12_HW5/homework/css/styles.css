@@ -1,0 +1,355 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: roboto;
+  background-color: #0b192f;
+  color: #fff;
+  max-width: 1400px;
+  width: 100%;
+  margin: 0 auto;
+}
+.post-1 {
+	background: #9d27b0;
+}
+.post-2 {
+	background: #9bb800;
+}
+.post-3 {
+	background: #ed5120;
+}
+.post-4 {
+	background: #9d27b0;
+}
+.post-5 {
+	background: #2d95bb;
+}
+.post-1 .articleImages a:hover {
+	background: #9d27b0;
+    opacity: 0.7;
+}
+.post-2 .articleImages a:hover {
+	background: #9bb800;
+    opacity: 0.7;
+}
+.post-3 .articleImages a:hover {
+	background: #ed5120;
+    opacity: 0.7;
+}
+.post-4 .articleImages a:hover{
+	background: #9d27b0;
+    opacity: 0.7
+}
+.post-5 .articleImages a:hover{
+	background: #2d95bb;
+    opacity: 0.7
+}
+.post .article-text:hover {
+    color: lightgray;
+}
+.header{
+  background-color: #162b4d;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 0 25px;
+  height: 115px;
+}
+.navigation{
+    padding: 0 50px 0 30px;
+    background-color: #024161;
+}
+.navigation{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.sandwichMenu {
+    display: none;
+}
+.link-btns {
+    display: flex;
+    justify-content: space-around;
+}
+.link-btns li:hover {
+    background-color: #1f52a4;
+}
+.logo a {
+    color: #fff;
+    font-size: 2.5em;
+    font-weight: 300;
+    text-decoration: none;
+}
+.logo span {
+    color: #cf2767;
+}
+.navigation ul {
+    list-style-type: none;
+}
+.navigation ul li {
+    padding: 30px 20px;
+    margin: 0 10px;
+}
+.navigation ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1em; 
+}
+.header-bg {
+    background: url(../img/post0.jpg) center no-repeat;
+    background-size: cover;
+    height: 400px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 40px 40px;
+}
+.header-bg h1 {
+    font-size: 8vmin;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+.header-bg p {
+    font-size: 2vmin;
+    font-weight: 300;
+    color: lightgray;
+    line-height: 25px;
+    width: 80%;
+}
+.main{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+}
+.blog{
+  width: 70%;
+}
+.articleItems{
+  display: flex;
+  flex-wrap: wrap;
+  overflow: hidden;
+}
+.articleItems:nth-child(2n) {
+  flex-direction: row-reverse;
+}
+.articleImages,
+.articleInfo{
+  flex: 50%;
+}
+.articleImages{
+  position: relative;
+}
+.articleImages img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.articleImages a {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.articleInfo{
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  box-sizing: border-box;
+  padding: 45px;
+}
+.articleItems:nth-child(2n) .articleInfo{
+  flex-direction: row-reverse;
+  text-align: right;
+}
+.articleInfo h2{
+  display: block;
+  width: 80%;
+  font-size: 50px;
+  font-weight: 100;
+  line-height: 1;
+  letter-spacing: 0.7px;
+  margin-bottom: 30px;
+}
+.articleInfo h2 a {
+  color: #fff;
+  text-decoration: none;
+}
+.articleInfo h2 a:hover {
+  color: rgba(255, 255, 255, 0.7);
+}
+.articleInfo p {
+  color: rgba(255, 255, 255, 0.7);
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 1.5;
+  width: 90%;
+}
+.articleInfo time{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 60px;
+  font-weight: 100;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.25);
+  line-height: 1.3;
+}
+.articleInfo time span {
+  display: block;
+  font-size: 32px;
+  text-transform: lowercase;
+}
+.articleItems:nth-child(2n) .articleInfo time {
+  right: unset;
+  left: 10px;
+}
+.miniBlog{
+  width: 28%;
+  margin-left: 20px;
+} 
+.miniBlogItems{
+  background-color: #fff;
+  margin-bottom: 30px;
+}
+.miniBlog img{
+  width: 100%;
+}
+.miniBlogInfo{
+  box-sizing: border-box;
+  padding: 40px;
+}
+.miniBlogInfo h3{
+  font-size: 32px;
+  font-weight: 300;
+  line-height: 1.2;
+  margin-bottom: 12px;
+}
+.miniBlogInfo h3 a{
+  color: #000;
+  text-decoration: none;
+}
+.miniBlogInfo p{
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 1.7;
+  color: #000;
+}
+.footer{
+  background-color: #162b4d;
+  color: #637693;
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 30px;
+  margin-bottom: 5px;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 1.5;
+  margin-top: 20px;
+}
+.footer-design-author span {
+  display: block;
+}
+@media (max-width: 1400px){
+  .navigation {
+    background-color: #024161;
+    height: 30vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px 0 25px;
+}
+
+.navigation ul {
+    display: none;
+}
+
+.sandwichMenu {
+    display: block;
+    font-size: 3vw;
+    line-height: 25px;
+    margin-bottom: 30px;
+}
+
+.logo a {
+    color: #fff;
+    font-size: 5vw;
+    text-decoration: none;
+    font-weight: 200;
+}
+
+.logo span {
+    color: #cf2767;
+}  
+.header-bg {
+    background: url(../img/post0.jpg) center no-repeat;
+    background-size: cover;
+    height: 50vw;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 40px 40px;
+}
+
+.header-bg h1 {
+    font-size: 6vw;
+    font-weight: 200;
+    margin-bottom: 20px;
+}
+
+.header-bg p {
+    font-size: 2vw;
+    font-weight: 300;
+    color: lightgray;
+    line-height: 3vw;
+    width: 100%;
+}
+  .blog{
+      width: 57%;
+  }
+  .miniBlog{
+    width: 40%;
+  }
+  .articleInfo{
+    padding: 45px 45px 25px;
+  }
+  .articleInfo h2{
+    width: unset;
+  }
+  .articleInfo p{
+    width: unset;
+    margin-bottom: 55px;
+  }
+  .articleInfo time{
+    position: static;
+    width: 100%;
+    text-align: center;
+  }
+  .footer{
+    flex-direction: column;
+    text-align: center;
+  }
+}
+@media (max-width: 768px){
+  .header,
+  .main,
+  .footer {
+    max-width: 480px;
+    display: flex;
+    flex-direction: column;
+  }
+  .blog {
+    width: 100%;
+  }
+  .miniBlog{
+    width: 100%;
+    margin-left: 0;
+  }  
+}
