@@ -1,0 +1,14 @@
+ul{
+    list-style: none;
+}
+.material-icons{
+    color: #edbc0b;
+}
+span{
+    margin-left: 5px;
+    cursor: pointer;
+}
+.empty{
+    margin-left: 15px;
+    font-style: italic;
+}
