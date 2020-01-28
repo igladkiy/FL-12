@@ -1,0 +1,78 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+#todoAdd{
+  border-bottom: 5px solid #E2F1FD;
+}
+fieldset {
+  border: none;
+}
+#toDO{
+  color: #4cbdfe;
+  text-align: center;
+}
+#addItem{
+  margin: 1% 5%;
+  width: 80%;
+  height: 50px;
+  float: left;
+}
+.addBox{
+  font-size: 50px;
+  color: #c8d0d8;
+  margin-top: 1%;
+  cursor: pointer;
+}
+#todoList{
+  color: #4cbdfe;
+  margin-left: 5%;
+}
+#listItems{
+  list-style-type: none;
+}
+.liItems{
+  margin-top: 1%; 
+}
+.spanTxt{
+  font-size: 28px;
+}
+#warning{
+  display: none;
+  color: red;
+  margin-left: 5%;
+  text-align: center;
+}
+.checkBoxCheck{
+  width: 20px;
+  height: 20px;
+  color: #c8d0d8;
+  cursor: pointer;
+  margin-right: 1%; 
+}
+.pen{
+  color: #4cbdfe;
+  margin-left: 1%;
+}
+.changeTxt{
+  height: 40px;
+  width: 60%;
+  padding: 0px 20px;
+  border: 1px solid #C6D0D7;
+}
+.changeBlock{
+  display: none;
+  width: 30%;
+}
+.basket{
+  float: right;
+  margin-right: 5%;
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+}
+.save{
+  cursor: pointer;
+  float: right;
+  font-size: 48px;    
+}

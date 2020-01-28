@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Homework 12 - Simple TODO List</title>
+  <link rel="stylesheet" href="./assets/material-icons/material-icons.css">
+  <link rel="stylesheet" href="./assets/styles.css">
+</head>
+<body>
+  <div id="root">
+    <header>
+      <h1 id="toDO">TODO Cat List</h1>
+    </header>
+    <main>
+      <form>
+        <fieldset id="todoAdd">
+          <input type="text" name="addItem" id="addItem" placeholder="Add new action">
+          <i class="material-icons addBox">add_box</i>
+        </fieldset>
+        <p id="warning">Input something</p>
+        <fieldset id="todoList"><ul id="listItems"></ul></fieldset>
+        
+      </form>
+    </main>
+  </div>
+  <script src="./src/app.js"></script>
+</body>
+</html>
